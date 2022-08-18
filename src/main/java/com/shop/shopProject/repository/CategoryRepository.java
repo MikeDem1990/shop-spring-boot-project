@@ -1,0 +1,9 @@
+package com.shop.shopProject.repository;
+
+import com.shop.shopProject.model.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+
+
+}
